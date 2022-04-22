@@ -1,0 +1,37 @@
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Calendar {
+    text-align: center;
+    margin-bottom: -2.3vw;
+}
+
+#back{
+    margin-left: 7vw;
+
+}
+
+#forward{
+    margin-left: 81vw;
+}
+
+.col {
+    border-style: solid;
+    border-color: lightgray;
+    text-align: center;
+    width:100vw;
+    height:15vh;
+    
+}
+
+.days {
+    width:3vw;
+    height:4vh;
+    flex: 1 0 0%;
+    border-style: solid;
+    border-color: lightgray;
+    text-align: center;
+    font-size: 1.3vw;
+}

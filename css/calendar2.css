@@ -1,0 +1,70 @@
+.calendar-body{
+    display: grid;
+    width:60%;
+    height:100%;
+    margin:auto;
+}
+
+.calendar-weekDays{
+    display: grid;
+    padding:1%;
+    grid-template-columns: repeat(7,1fr);
+    color:black;
+    column-gap: 5%;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.calendar-monthDays{
+    display: grid;
+    padding:1%;
+    grid-template-columns: repeat(7,1fr);
+    color:black;
+    column-gap: 4%;
+    row-gap: 2%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.monthname{
+    margin: auto;
+    padding:0;
+    width:60%;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2em;
+    padding: 5%;
+    margin-bottom: -2%;
+    text-align: center;
+}
+
+.prev-date,
+.next-date{
+    opacity: 0.5;
+}
+
+.prevMonth, .nextMonth{
+    padding:5px;
+}
+
+.nextMonth{
+    width: 5%;
+    margin-left: 92%;
+    margin-top: -60px;
+    height: 4.5vh;
+}
+
+.previousMonth{
+    width: 5%;
+    height: 4.5vh;
+    margin-top: -60px;
+    margin-left: 3%;
+}
+
+.heading{
+    margin-top: -4%;
+}
+

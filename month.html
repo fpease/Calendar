@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var today = new Date();
+        var months = new Array();
+        months[0] = "January"; months[1] = "February";
+        months[2] = "March"; months[3] = "April";
+        months[4] = "May"; months[5] = "June";
+        months[6] = "July"; months[7] = "August";
+        months[8] = "September"; months[9] = "October";
+        months[10] = "November"; months[11] = "December";
+        var curMonth = months[today.getMonth()];
+        document.write("<p>The current month is " + curMonth + ".</p>");
+    </script>
+</body>
+</html>

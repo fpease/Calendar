@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var today = new Date();
+        var curDay = today.getDay();
+        if(curDay == 0)
+            document.write("Today is Sunday.");
+        else if (curDay == 1)
+            document.write("Today is Monday.");
+        else if (curDay == 2)
+            document.write("Today is Tuesday.");
+        else if (curDay == 3)
+            document.write("Today is Wednesday.");
+        else if (curDay == 4)
+            document.write("Today is Thursday.");
+        else if (curDay == 5)
+            document.write("Today is Friday.");
+        else if (curDay == 6)
+            document.write("Today is Saturday.");
+    </script>
+</body>
+</html>
